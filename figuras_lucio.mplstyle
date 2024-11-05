@@ -1,8 +1,11 @@
 # FIGURE & AXES & COLORS
-figure.figsize : 12, 6
-axes.labelpad : 18
-axes.prop_cycle : cycler('color', ['lightgreen', 'xkcd:lightblue', 'xkcd:lavender', 'xkcd:salmon', 'gold', 'xkcd:aquamarine', 'xkcd:azure', 'xkcd:pink', 'xkcd:orangered', 'xkcd:grey'])
+figure.figsize : 12, 7
 
+#AXES
+axes.labelpad : 18
+axes.prop_cycle : cycler('color', ['cornflowerblue', 'tomato', 'darkorange','mediumspringgreen','yellowgreen', 'mediumpurple', 'hotpink', 'peru','grey'])
+axes.xmargin : 0.01
+axes.ymargin : 0.01
 
 # AXIS TICKS
 # Set x axis
@@ -26,7 +29,7 @@ ytick.right : True
 # LINES
 axes.linewidth : 1
 grid.linewidth : 1
-lines.linewidth : 3.5
+lines.linewidth : 3
 
 
 # GRID & LEGEND
@@ -34,7 +37,7 @@ axes.grid : True
 axes.axisbelow : True
 grid.linestyle : :
 grid.color : k
-grid.alpha : 0.4
+grid.alpha : 0.6
 legend.frameon : True
 legend.framealpha : 1.0
 legend.fancybox : True
@@ -43,11 +46,11 @@ legend.numpoints : 1
 
 # FONT
 # Fontsizes
-xtick.labelsize : 18
-ytick.labelsize : 18
+xtick.labelsize : 15
+ytick.labelsize : 15
 legend.fontsize : 18
 legend.title_fontsize : 18
-axes.labelsize : 20
+axes.labelsize : 23
 # Font type
 font.family : serif
 mathtext.fontset : dejavuserif
