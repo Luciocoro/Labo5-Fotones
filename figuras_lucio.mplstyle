@@ -29,7 +29,7 @@ ytick.right : True
 # LINES
 axes.linewidth : 1
 grid.linewidth : 1
-lines.linewidth : 3
+lines.linewidth : 1.5
 
 
 # GRID & LEGEND
